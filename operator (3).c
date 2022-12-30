@@ -1,3 +1,4 @@
+// Implementation of bitwise operator
 #include <stdio.h>
 void main()
 {

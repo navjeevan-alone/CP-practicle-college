@@ -9,6 +9,3 @@ void main()
     c = a++;
     printf("\n%d %d", a, c);
 }
-// Output
-//  11 11
-//  12 11
