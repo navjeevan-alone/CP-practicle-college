@@ -10,5 +10,5 @@ void main()
         rev = rev * 10 + r;
         num = num / 10;
     } while (num > 0);
-    printf("Reverse is : %d",rev);
+    printf("Reverse is : %d", rev);
 }
