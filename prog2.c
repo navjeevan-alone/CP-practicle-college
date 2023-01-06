@@ -1,5 +1,5 @@
 /* WAP, assign different types of value in differnt types
-of variable and display using format specifier.*/
+of variable and display using format specifier. */
 #include <stdio.h>
 void main()
 {
