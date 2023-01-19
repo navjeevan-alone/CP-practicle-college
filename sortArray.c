@@ -6,13 +6,13 @@ void main()
     printf("Enter the array : ");
     for (int i = 0; i <= 5; i++)
     {
-        scanf("%d", &arr[i]);
+        scanf("%d ", &arr[i]);
     }
     for (int i = 0; i < 5; i++)
     {
         for (int j = i + 1; j <= 5; j++)
         {
-            if (arr[i] > arr[j])
+            if (arr[i] > arr[j])// just change > to < for descending array
             {
                 int temp = arr[i];
                 arr[i] = arr[j];
@@ -20,6 +20,7 @@ void main()
             }
         }
     }
+    printf("Sorted array is : ");
     for (int i = 0; i <= 5; i++)
     {
         printf("%d, ", arr[i]);
