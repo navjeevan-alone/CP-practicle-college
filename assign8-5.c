@@ -1,0 +1,1 @@
+// wap, to calculate the factorial of number using function with argument and return value
