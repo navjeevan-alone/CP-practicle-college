@@ -7,7 +7,7 @@ void main()
     for (int i = 0; i < 5; i++)
     {
         scanf("%d", &x[i]);
-        sum+=x[i];
+        sum=sum+*(y+1);
     }
     printf("Sum of the array elements is :%d",sum);
 }
