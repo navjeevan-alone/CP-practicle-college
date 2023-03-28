@@ -1,7 +1,8 @@
+// Wap, for addtion of two matrices
 #include <stdio.h>
 void main()
 {
-    int x[3][3], y[3][3], sum = 0;
+    int x[3][3], y[3][3];
     printf("Enter matrix x:");
     for (int i = 0; i < 3; i++)
     {
@@ -19,20 +20,15 @@ void main()
         }
     }
 
-    printf("multiply of the matrix=\n");
+    printf("Addtion of the matrices=\n");
     for (int i = 0; i < 3; i++)
     {
 
         for (int j = 0; j < 3; j++)
         {
-            for (int k = 0; k < 3; k++)
-            {
-                sum += x[i][k] * y[k][j];
-            }
-            printf("%d\t", sum);
-            sum = 0;
+            printf("%d\t", x[i][j] + y[i][j]);
         }
-        printf("\n", sum);
+        printf("\n");
     }
 }
 // Output
@@ -40,7 +36,7 @@ void main()
 // 1 2 3 4 5 6 7 8 9
 // Enter matrix y:
 // 1 2 3 4 5 6 7 8 9
-// multiply of the matrix=
-// 30      36      42
-// 66      81      96
-// 102     126     150
+// Addtion of the matrices=
+// 2       4       6      
+// 8       10      12     
+// 14      16      18  

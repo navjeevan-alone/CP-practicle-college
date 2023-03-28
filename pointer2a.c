@@ -11,7 +11,7 @@ void main()
     // a = a - b;
 
     a = *x + *y;
-    b = *x - *y;
+    b = *x - *y;fasdf
     a = *x - *y;
 
     printf("Value of a : %d\n", a);
