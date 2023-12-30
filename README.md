@@ -1,4 +1,9 @@
-# C practicle First Year B.Tech
+# Engineering Practicle of B.Tech
 G H Raisoni College of Engg and Management, Pune 
-## Sem - 1 
-All practicle programs will be uploaded here on the go. 
+
+## Sem - 1
+C practical 
+## Sem - 2 
+python practical
+## Sem - 3
+dsa practical
